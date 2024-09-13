@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+   
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+   
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    /* margin: 50px auto; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>Nexusaquarium@gmail.com</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <p style="padding-left: 110px;">Today's Hours 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="nav-bar p-0 sticky-top">
+        <div class="position-relative p-0 " style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <div class="container">
+
+
+                    <a href="" class="navbar-brand">
+                        <h3 class="m-0 text-primary"><span class="text-dark">Nexus</span>Aquarium</h3>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between px-3 " id="navbarCollapse">
+                        <div class="navbar-nav ml-auto py-0 ms-auto">
+                            <a href="./index1.html" class="nav-item nav-link">Home</a>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Visit</a>
+                                <div class="dropdown-menu border-0 rounded-0 m-0">
+                                    <a href="./ticket.html" class="dropdown-item">Tickets</a>
+                                    <a href="./membership.html" class="dropdown-item">Membership</a>
+                                </div>
+                            </div>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Events</a>
+                                <div class="dropdown-menu border-0 rounded-0 m-0">
+                                    <a href="./holiday.html" class="dropdown-item">Holidays</a>
+                                    <a href="./eventskids.html" class="dropdown-item">Event For Kids</a>
+                                    <a href="./eventssadult.html" class="dropdown-item">Event For Adult</a>
+                                </div>
+                            </div>
+                            <a href="./category.html" class="nav-item nav-link">Categorization</a>
+
+                            <a href="./Gallery.html" class="nav-item nav-link">Gallery</a>
+
+                            <a href="./contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+                                        <!-- Feedback Form -->
+<div style="background-color: rgba(198, 229, 236, 0.781); height: 600px; padding: 30px;" >
+
+    <div class="container" >
+        <h1>Feedback Form</h1>
+        <form id="feedbackForm">
+            <div class="form-group" id="nameGroup">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+                <div class="error-message" id="nameError"></div>
+            </div>
+
+            <div class="form-group" id="emailGroup">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+                <div class="error-message" id="emailError"></div>
+            </div>
+
+            <div class="form-group" id="feedbackGroup">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" class="form-control" placeholder="Enter your feedback"></textarea>
+                <div class="error-message" id="feedbackError"></div>
+            </div>
+
+            <div class="form-group" id="ratingGroup">
+                <label for="rating">Rating (1-5):</label>
+                <input type="number" id="rating" name="rating" class="form-control" placeholder="Enter your rating" min="1" max="5">
+                <div class="error-message" id="ratingError"></div>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+   
+    
+   </div>
+   <footer class=" text-dark pt-5 pb-4" style="background-color: rgba(198, 229, 236, 0.781);">
+    <div class=" text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-info">About Us</h5>
+                <hr class="mb-4">
+                <p>The Nexus Aquarium is a nonprofit organization that connects people with
+                    nature to inspire compassion and care for our ocean planet.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-info">Links</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="./index1.html" class="text-dark" style="text-decoration:none">Home</a>
+                </p>
+                <p>
+                    <a href="./ticket.html" class="text-dark" style="text-decoration:none">Tickets</a>
+                </p>
+                <p>
+                    <a href="./membership.html" class="text-dark" style="text-decoration:none">Membership</a>
+                </p>
+                <p>
+                    <a href="./category.html" class="text-dark" style="text-decoration:none">Categorization</a>
+                </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contact</h5>
+                <hr class="mb-4">
+                <p>
+                    Washington, USA
+                </p>
+                <p>
+                    Nexusaquarium@gmail.com
+                </p>
+                <p>
+                    + 01 234 567 89
+                </p>
+
+            </div>
+
+            <hr class="mb-4">
+            <div class="row d-flex justify-content-center">
+                <div>
+                    <p>
+                        copyright 2020 All RIght Reserved By :
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-info">THE PROVIDERS </strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+<script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Regular Expressions for Validation
+    const nameRegex = /^[a-zA-Z\s]+$/;
+    const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+    const feedbackRegex = /^[a-zA-Z0-9\s.,!?]+$/;
+    const ratingRegex = /^[1-5]$/;
+
+    // Input Fields
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const feedbackInput = document.getElementById('feedback');
+    const ratingInput = document.getElementById('rating');
+
+    // Error Messages
+    const nameError = document.getElementById('nameError');
+    const emailError = document.getElementById('emailError');
+    const feedbackError = document.getElementById('feedbackError');
+    const ratingError = document.getElementById('ratingError');
+
+    // Reset Errors
+    nameError.textContent = '';
+    emailError.textContent = '';
+    feedbackError.textContent = '';
+    ratingError.textContent = '';
+
+    // Validate Name
+    if (!nameRegex.test(nameInput.value.trim())) {
+        nameError.textContent = 'Please enter a valid name (letters and spaces only).';
+        return;
+    }
+
+    // Validate Email
+    if (!emailRegex.test(emailInput.value.trim())) {
+        emailError.textContent = 'Please enter a valid email address.';
+        return;
+    }
+
+    // Validate Feedback
+    if (!feedbackRegex.test(feedbackInput.value.trim())) {
+        feedbackError.textContent = 'Please enter valid feedback (letters, numbers, and punctuation only).';
+        return;
+    }
+
+    // Validate Rating
+    if (!ratingRegex.test(ratingInput.value.trim())) {
+        ratingError.textContent = 'Please enter a rating between 1 and 5.';
+        return;
+    }
+
+    // If all validations pass, submit the form
+    alert('Feedback submitted successfully!');
+    // Optionally, clear the form
+    document.getElementById('feedbackForm').reset();
+});
+
+</script>
+   
+</body>
+</html>
